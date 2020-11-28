@@ -1,0 +1,44 @@
+body {
+  background-color: aquamarine;
+  position: relative;
+  margin: 0;
+}
+
+h1 {
+  color: navy;
+  margin-left: 5%;
+}
+
+#advice-quote {
+  width: 90vw;
+  height: 130px;
+  background-color: white;
+  border: 5px navy solid;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+form {
+  position: absolute; 
+  top: 125%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#getAdvice {
+  background: navy;
+    color: white;
+    padding: 8px 24px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2em;
+    outline: none;
+}
+
+#advice-text{
+  text-align: center;
+  font-size: 1.4em;
+}
