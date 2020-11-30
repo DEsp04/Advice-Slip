@@ -1,18 +1,11 @@
-import axios from 'axios';
-import dotenv from 'dotenv';
-dotenv.config();
-
 const getAdvice = document.getElementById("getAdvice");
-
-
-
 
 
 getAdvice.addEventListener('click', async (e) => { 
   e.preventDefault(); //this line helps make the input act like a button 
 
 
-  const adviseUrl = `${process.env.API_BASE_URL}/advice`
+  const adviseUrl = `https://api.adviceslip.com/advice`
 
   try {
     let response = await axios.get(adviseUrl);
